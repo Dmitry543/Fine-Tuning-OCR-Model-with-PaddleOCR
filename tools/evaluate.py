@@ -104,6 +104,7 @@ def evaluate(args) -> dict:
     # recognition on ground-truth crops
     rec_kw = {k.replace("text_recognition_", ""): v for k, v in model_kwargs("rec", args.rec).items()}
     engine = {"engine": args.engine} if args.engine else {}
+    engine["enable_mkldnn"] = False  # PaddlePaddle 3.3.1's oneDNN executor fails on PP-OCRv6 on x86 CPUs
     recognizer = TextRecognition(device=device, **engine, **rec_kw)
     crops = [str(data / line.split("\t")[0]) for line in rec_lines]
     labels = [norm(line.split("\t", 1)[1]) for line in rec_lines]

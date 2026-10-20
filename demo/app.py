@@ -14,7 +14,9 @@ import numpy as np
 from paddleocr import PaddleOCR
 from PIL import Image, ImageDraw
 
-COMMON = dict(use_doc_orientation_classify=False, use_doc_unwarping=False, use_textline_orientation=False)
+# enable_mkldnn=False: PaddlePaddle 3.3.1's oneDNN executor fails on PP-OCRv6 on x86 CPUs
+COMMON = dict(use_doc_orientation_classify=False, use_doc_unwarping=False, use_textline_orientation=False,
+              enable_mkldnn=False)
 
 
 def build(det: str | None, rec: str | None) -> PaddleOCR:

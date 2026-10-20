@@ -12,6 +12,9 @@ PaddleOCR saves `best_accuracy` only when it evaluates, every `Global.eval_batch
 **`Out of memory` on GPU**
 Lower `Train.loader.batch_size_per_card` (detection 8 → 4, recognition 64 → 32). For recognition, also lower `Train.sampler.first_bs` to the same value.
 
+**`ConvertPirAttribute2RuntimeAttribute not support [pir::ArrayAttribute<pir::DoubleAttribute>]` on a Linux or Windows CPU**
+PaddlePaddle 3.3.1's oneDNN (MKL-DNN) executor cannot run PP-OCRv6, including the stock models. Pass `enable_mkldnn=False` to `PaddleOCR(...)`; the tools and demo in this repo already do.
+
 **Training is very slow on a Mac**
 PaddlePaddle has no Apple GPU support, so training runs on the CPU at a few minutes per recognition batch. Use the Colab notebook for real training; the Mac is fine for data preparation, evaluation and the demo.
 
