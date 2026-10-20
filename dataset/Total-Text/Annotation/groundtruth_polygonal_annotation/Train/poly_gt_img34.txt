@@ -1,3 +1,0 @@
-x: [[251 296 356 416 387 350 300 274]], y: [[166 118 114 163 180 140 146 184]], ornt: [u'c'], transcriptions: [u'BARTLETT']
-x: [[183 337 485 484 335 178]], y: [[208 211 211 271 255 269]], ornt: [u'c'], transcriptions: [u'DENTAL']
-x: [[260 401 401 260]], y: [[270 270 295 294]], ornt: [u'h'], transcriptions: [u'STATION']

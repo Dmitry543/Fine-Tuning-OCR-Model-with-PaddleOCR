@@ -1,7 +1,0 @@
-x: [[394 444 496 490 439 391]], y: [[114 112 118 142 138 145]], ornt: [u'c'], transcriptions: [u'Historic']
-x: [[191 270 357 357 289 212]], y: [[218 188 176 219 229 255]], ornt: [u'c'], transcriptions: [u'CITY']
-x: [[396 540 697 684 531 396]], y: [[171 173 214 251 214 212]], ornt: [u'c'], transcriptions: [u'MARKET']
-x: [[711 757 750 704]], y: [[233 253 269 253]], ornt: [u'm'], transcriptions: [u'1857']
-x: [[383 422 454 454 420 389]], y: [[248 243 245 259 257 263]], ornt: [u'c'], transcriptions: [u'KANSAS']
-x: [[465 486 508 507 486 466]], y: [[245 244 248 263 262 261]], ornt: [u'c'], transcriptions: [u'CITY']
-x: [[ 27 257 258  31]], y: [[579 580 602 602]], ornt: [u'#'], transcriptions: [u'#']

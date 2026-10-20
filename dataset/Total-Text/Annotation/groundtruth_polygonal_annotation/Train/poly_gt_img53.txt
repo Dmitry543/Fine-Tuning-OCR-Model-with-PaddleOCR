@@ -1,5 +1,0 @@
-x: [[ 99 137 189 186 145 108]], y: [[120  93  90 105 109 134]], ornt: [u'c'], transcriptions: [u'EMBASSY']
-x: [[209 231 243 232 219 204]], y: [[100 114 130 138 125 117]], ornt: [u'c'], transcriptions: [u'EASt']
-x: [[117 129 139 135 123 111]], y: [[233 240 245 259 254 244]], ornt: [u'c'], transcriptions: [u'185']
-x: [[144 174 202 211 179 140]], y: [[247 252 247 258 267 262]], ornt: [u'c'], transcriptions: [u'HOXTON']
-x: [[210 225 232 216]], y: [[242 232 243 258]], ornt: [u'm'], transcriptions: [u'ST']

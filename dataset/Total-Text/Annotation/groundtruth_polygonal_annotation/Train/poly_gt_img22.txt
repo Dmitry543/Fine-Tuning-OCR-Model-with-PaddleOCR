@@ -1,7 +1,0 @@
-x: [[146 218 464 668 785 691 631 477 304 235]], y: [[375 194 117 224 409 439 300 213 277 405]], ornt: [u'c'], transcriptions: [u'PERANAKAN']
-x: [[785 819 822 791]], y: [[247 250 282 278]], ornt: [u'h'], transcriptions: [u'R']
-x: [[179 766 772 181]], y: [[615 633 693 688]], ornt: [u'h'], transcriptions: [u'PLACE']
-x: [[150 424 430 148]], y: [[699 705 757 755]], ornt: [u'h'], transcriptions: [u'authentic']
-x: [[439 632 637 442]], y: [[718 719 772 769]], ornt: [u'h'], transcriptions: [u'nyonya']
-x: [[653 811 815 653]], y: [[708 710 761 758]], ornt: [u'h'], transcriptions: [u'cuisine']
-x: [[495 668 673 498]], y: [[914 911 945 948]], ornt: [u'h'], transcriptions: [u'PERANAKANPLACE']

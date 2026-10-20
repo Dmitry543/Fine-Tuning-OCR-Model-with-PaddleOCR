@@ -1,6 +1,0 @@
-x: [[ 734 2642 2638  698]], y: [[242 270 730 702]], ornt: [u'h'], transcriptions: [u'Smashed']
-x: [[ 598 2790 2818  578]], y: [[1086 1090 1466 1466]], ornt: [u'h'], transcriptions: [u'BURGERS']
-x: [[766 950 854 658]], y: [[1989 2129 2273 2109]], ornt: [u'm'], transcriptions: [u'IN']
-x: [[1010 1294 1646 1646 1226  946]], y: [[2181 2305 2369 2537 2461 2321]], ornt: [u'c'], transcriptions: [u'CRUST']
-x: [[1706 1942 2082 2142 1954 1746]], y: [[2365 2365 2313 2489 2525 2513]], ornt: [u'c'], transcriptions: [u'WE']
-x: [[2150 2450 2682 2798 2550 2238]], y: [[2289 2189 1997 2121 2325 2473]], ornt: [u'c'], transcriptions: [u'TRUST']

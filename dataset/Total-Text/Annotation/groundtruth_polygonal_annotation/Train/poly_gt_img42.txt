@@ -1,3 +1,0 @@
-x: [[100 282 481 471 278  98]], y: [[181 140 166 224 194 224]], ornt: [u'c'], transcriptions: [u'SHANGHAI']
-x: [[191 382 380 188]], y: [[216 213 265 265]], ornt: [u'h'], transcriptions: [u'REDS']
-x: [[186 400 399 184]], y: [[278 282 303 296]], ornt: [u'm'], transcriptions: [u'RESTAURANT']

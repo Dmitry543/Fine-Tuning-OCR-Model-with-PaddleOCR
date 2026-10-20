@@ -1,4 +1,0 @@
-x: [[188 401 579 574 417 225]], y: [[247 124 132 194 184 320]], ornt: [u'c'], transcriptions: [u'RIVERSIDE']
-x: [[608 719 790 754 682 581]], y: [[144 222 310 348 272 211]], ornt: [u'c'], transcriptions: [u'POINT']
-x: [[119 135 134 121]], y: [[502 503 598 596]], ornt: [u'm'], transcriptions: [u'CONTEMPORAR']
-x: [[927 988 989 922]], y: [[536 536 581 581]], ornt: [u'#'], transcriptions: [u'#']

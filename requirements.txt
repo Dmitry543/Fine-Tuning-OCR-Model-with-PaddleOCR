@@ -1,0 +1,5 @@
+paddleocr==3.7.0
+pyarrow
+rapidfuzz
+requests
+shapely

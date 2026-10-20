@@ -1,8 +1,0 @@
-x: [[124 632 634 128]], y: [[370 368 446 446]], ornt: [u'h'], transcriptions: [u'GELATERIA']
-x: [[1152 1296 1300 1158]], y: [[328 330 358 358]], ornt: [u'h'], transcriptions: [u'BISTRO']
-x: [[1128 1320 1318 1128]], y: [[354 358 390 384]], ornt: [u'h'], transcriptions: [u'FRANCAIS']
-x: [[1336 1472 1654 1620 1478 1376]], y: [[362 306 360 410 362 410]], ornt: [u'c'], transcriptions: [u'BOUCHON']
-x: [[1694 1836 1836 1698]], y: [[330 330 366 360]], ornt: [u'h'], transcriptions: [u'BISTRO']
-x: [[1670 1864 1860 1672]], y: [[364 368 394 396]], ornt: [u'h'], transcriptions: [u'FRANCAIS']
-x: [[1602 1680 1752 1732 1680 1620]], y: [[458 426 462 488 464 486]], ornt: [u'c'], transcriptions: [u'BOUCHON']
-x: [[1648 1750 1742 1650]], y: [[720 724 826 822]], ornt: [u'#'], transcriptions: [u'#']

@@ -1,8 +1,0 @@
-x: [[110 153 195 189 155 113]], y: [[ 81  73  78  96  90 100]], ornt: [u'c'], transcriptions: [u'LEAVING']
-x: [[ 91 133 131  94]], y: [[110 106 124 126]], ornt: [u'm'], transcriptions: [u'HAY']
-x: [[136 207 206 135]], y: [[111 108 125 128]], ornt: [u'm'], transcriptions: [u'GROUND']
-x: [[ 44 168 169  42]], y: [[128 128 148 153]], ornt: [u'm'], transcriptions: [u'HERITAGE']
-x: [[178 253 259 181]], y: [[127 125 144 147]], ornt: [u'h'], transcriptions: [u'AREA']
-x: [[ 77  93 112 106  85  71]], y: [[169 177 182 197 192 183]], ornt: [u'c'], transcriptions: [u'TOWN']
-x: [[107 126 126 107]], y: [[182 184 201 199]], ornt: [u'm'], transcriptions: [u'OF']
-x: [[131 176 225 234 181 128]], y: [[186 183 166 177 203 203]], ornt: [u'c'], transcriptions: [u'SOUTHAMPTON']

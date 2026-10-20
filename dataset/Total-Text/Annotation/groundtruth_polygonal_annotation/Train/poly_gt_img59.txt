@@ -1,6 +1,0 @@
-x: [[118 145 186 207 191 178 152 131]], y: [[203 177 180 205 215 195 192 214]], ornt: [u'c'], transcriptions: [u'SFFCCCKS']
-x: [[132 153 184 192 160 125]], y: [[231 240 228 242 256 245]], ornt: [u'c'], transcriptions: [u'COFFEE']
-x: [[218 517 521 212]], y: [[192 194 237 234]], ornt: [u'h'], transcriptions: [u'SFFCCCKS']
-x: [[495 618 618 491]], y: [[371 373 408 407]], ornt: [u'#'], transcriptions: [u'#']
-x: [[606 624 624 610]], y: [[320 320 332 332]], ornt: [u'h'], transcriptions: [u'53']
-x: [[249 377 376 240]], y: [[292 290 319 320]], ornt: [u'#'], transcriptions: [u'#']

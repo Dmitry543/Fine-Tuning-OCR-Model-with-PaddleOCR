@@ -1,8 +1,0 @@
-x: [[21 53 87 77 53 29]], y: [[22 13 38 51 30 38]], ornt: [u'c'], transcriptions: [u'MADO']
-x: [[30 51 70 77 51 22]], y: [[ 79  95  87 104 113  96]], ornt: [u'c'], transcriptions: [u'CAFE']
-x: [[164 346 349 147]], y: [[ 35  99 151 108]], ornt: [u'm'], transcriptions: [u'MADO']
-x: [[271 294 293 276]], y: [[227 229 293 292]], ornt: [u'm'], transcriptions: [u'aCola']
-x: [[268 388 392 268]], y: [[465 462 485 483]], ornt: [u'#'], transcriptions: [u'#']
-x: [[376 394 396 375]], y: [[129 132 147 141]], ornt: [u'#'], transcriptions: [u'#']
-x: [[377 396 397 375]], y: [[166 168 182 181]], ornt: [u'#'], transcriptions: [u'#']
-x: [[181 245 236 181]], y: [[376 393 401 389]], ornt: [u'#'], transcriptions: [u'#']
