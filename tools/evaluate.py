@@ -103,7 +103,8 @@ def evaluate(args) -> dict:
 
     # recognition on ground-truth crops
     rec_kw = {k.replace("text_recognition_", ""): v for k, v in model_kwargs("rec", args.rec).items()}
-    recognizer = TextRecognition(device=device, **rec_kw)
+    engine = {"engine": args.engine} if args.engine else {}
+    recognizer = TextRecognition(device=device, **engine, **rec_kw)
     crops = [str(data / line.split("\t")[0]) for line in rec_lines]
     labels = [norm(line.split("\t", 1)[1]) for line in rec_lines]
     preds, start = [], time.time()
@@ -117,7 +118,8 @@ def evaluate(args) -> dict:
 
     # full pipeline on images
     ocr = PaddleOCR(device=device, use_doc_orientation_classify=False, use_doc_unwarping=False,
-                    use_textline_orientation=False, **model_kwargs("det", args.det), **model_kwargs("rec", args.rec))
+                    use_textline_orientation=False, **engine,
+                    **model_kwargs("det", args.det), **model_kwargs("rec", args.rec))
     n_pred = n_gt = det_tp = e2e_tp = 0
     examples, start = [], time.time()
     for line in det_lines:
@@ -138,6 +140,7 @@ def evaluate(args) -> dict:
         "end_to_end": prf(e2e_tp, n_pred, n_gt),
         "s_per_image": pipe_time / len(det_lines),
         "device": device,
+        "engine": args.engine or "paddle",
     }
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)
@@ -176,6 +179,7 @@ def main():
     p.add_argument("--data", default="data/cord")
     p.add_argument("--split", default="test")
     p.add_argument("--device", default="cpu", help="cpu or gpu:0")
+    p.add_argument("--engine", help="inference engine, e.g. onnxruntime for models from tools/export_onnx.py")
     p.add_argument("--batch-size", type=int, default=32)
     p.add_argument("--out-dir", default="results")
     p.add_argument("--compare", nargs="+", metavar="RESULT_JSON")

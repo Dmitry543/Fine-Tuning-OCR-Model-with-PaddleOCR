@@ -58,6 +58,7 @@ def main():
         preds += processor.batch_decode(new, skip_special_tokens=True)
     elapsed = time.time() - start
 
+    raw = preds
     labels = [norm(t) for _, t in pairs]
     preds = [norm(t) for t in preds]
     result = {
@@ -73,6 +74,8 @@ def main():
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)
     (out / f"{args.name}.json").write_text(json.dumps(result, indent=2))
+    examples = [{"image": path, "label": text, "prediction": pred} for (path, text), pred in zip(pairs, raw)]
+    (out / f"{args.name}_predictions.json").write_text(json.dumps(examples, ensure_ascii=False))
     print(json.dumps(result, indent=2))
 
 

@@ -32,7 +32,8 @@ def training_batch(processor, pairs: list[tuple[str, str]]) -> dict:
     """Tokenise image+prompt+answer; only the answer and its end token are trained on."""
     images = [Image.open(p).convert("RGB") for p, _ in pairs]
     batch = processor.apply_chat_template([conversation(im, t) for im, (_, t) in zip(images, pairs)],
-                                          tokenize=True, return_dict=True, return_tensors="pt", padding=True)
+                                          tokenize=True, return_dict=True, return_tensors="pt",
+                                          processor_kwargs={"padding": True})
     labels = torch.full_like(batch["input_ids"], -100)
     lengths = batch["attention_mask"].sum(1)
     for i, (_, text) in enumerate(pairs):
@@ -46,4 +47,5 @@ def training_batch(processor, pairs: list[tuple[str, str]]) -> dict:
 def generation_batch(processor, paths: list[str]) -> dict:
     images = [Image.open(p).convert("RGB") for p in paths]
     return processor.apply_chat_template([conversation(im) for im in images], add_generation_prompt=True,
-                                         tokenize=True, return_dict=True, return_tensors="pt", padding=True)
+                                         tokenize=True, return_dict=True, return_tensors="pt",
+                                         processor_kwargs={"padding": True})
