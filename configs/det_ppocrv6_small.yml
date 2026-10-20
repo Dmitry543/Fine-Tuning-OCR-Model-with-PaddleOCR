@@ -9,7 +9,7 @@ Global:
   ema_decay_type: threshold
   epoch_num: 20
   log_smooth_window: 20
-  print_batch_step: 20
+  print_batch_step: 100
   save_model_dir: output/det
   save_epoch_step: 1000
   eval_batch_step:

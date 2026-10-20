@@ -15,16 +15,16 @@ if [[ "${1:-}" == "--gpu" ]]; then
   # breaks the preinstalled PyTorch, which PaddleX imports through modelscope.
   driver_cuda=$(nvidia-smi | grep -o 'CUDA Version: [0-9]*' | grep -o '[0-9]*$')
   cuda=cu126; [[ "${driver_cuda:-12}" -ge 13 ]] && cuda=cu130
-  $PY -m pip install -q "paddlepaddle-gpu==$PADDLE_VERSION" -i "https://www.paddlepaddle.org.cn/packages/stable/$cuda/"
+  $PY -m pip install -q --progress-bar off "paddlepaddle-gpu==$PADDLE_VERSION" -i "https://www.paddlepaddle.org.cn/packages/stable/$cuda/"
 else
-  $PY -m pip install -q "paddlepaddle==$PADDLE_VERSION"
+  $PY -m pip install -q --progress-bar off "paddlepaddle==$PADDLE_VERSION"
 fi
 
 # Training code is not in the pip package, so it comes from the matching PaddleOCR release.
 if [[ ! -d third_party/PaddleOCR ]]; then
   git clone -q --depth 1 --branch "$PADDLEOCR_REF" https://github.com/PaddlePaddle/PaddleOCR.git third_party/PaddleOCR
 fi
-$PY -m pip install -q -r third_party/PaddleOCR/requirements.txt -r requirements.txt
+$PY -m pip install -q --progress-bar off -r third_party/PaddleOCR/requirements.txt -r requirements.txt
 
 mkdir -p pretrained
 for task in det rec; do
