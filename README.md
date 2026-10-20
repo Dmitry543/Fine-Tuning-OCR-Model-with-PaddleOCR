@@ -78,6 +78,7 @@ ocr = PaddleOCR(
     text_detection_model_name="PP-OCRv6_small_det", text_detection_model_dir="output/inference/det",
     text_recognition_model_name="PP-OCRv6_small_rec", text_recognition_model_dir="output/inference/rec",
     use_doc_orientation_classify=False, use_doc_unwarping=False, use_textline_orientation=False,
+    enable_mkldnn=False,  # PaddlePaddle 3.3.1 + oneDNN fails on PP-OCRv6 on x86 CPUs
 )
 for res in ocr.predict("receipt.jpg"):
     print(res["rec_texts"])
