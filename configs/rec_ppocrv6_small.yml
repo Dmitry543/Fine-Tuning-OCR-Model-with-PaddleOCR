@@ -4,14 +4,14 @@ Global:
   model_name: PP-OCRv6_small_rec
   debug: false
   use_gpu: true
-  epoch_num: 20
+  epoch_num: 10
   log_smooth_window: 20
   print_batch_step: 20
   save_model_dir: output/rec
   save_epoch_step: 1000
   eval_batch_step:
   - 0
-  - 200
+  - 400
   cal_metric_during_train: true
   pretrained_model: pretrained/PP-OCRv6_small_rec_pretrained.pdparams
   checkpoints: null

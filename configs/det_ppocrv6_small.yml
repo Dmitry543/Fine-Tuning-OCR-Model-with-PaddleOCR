@@ -7,14 +7,14 @@ Global:
   use_ema: true
   ema_decay: 0.9997
   ema_decay_type: threshold
-  epoch_num: 60
+  epoch_num: 20
   log_smooth_window: 20
   print_batch_step: 20
   save_model_dir: output/det
   save_epoch_step: 1000
   eval_batch_step:
   - 0
-  - 100
+  - 200
   cal_metric_during_train: false
   checkpoints: null
   pretrained_model: pretrained/PP-OCRv6_small_det_pretrained.pdparams
@@ -116,11 +116,11 @@ Train:
         shrink_ratio: 0.4
         thresh_min: 0.3
         thresh_max: 0.7
-        total_epoch: 60
+        total_epoch: 20
     - MakeShrinkMap:
         shrink_ratio: 0.4
         min_text_size: 8
-        total_epoch: 60
+        total_epoch: 20
     - NormalizeImage:
         scale: 1./255.
         mean:
