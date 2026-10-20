@@ -3,12 +3,15 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Dmitry543/Fine-Tuning-OCR-Model-with-PaddleOCR/blob/main/finetune.ipynb)
+[![Demo on Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/Dmitry654/pp-ocrv6-receipts)
 ![PaddleOCR 3.7](https://img.shields.io/badge/PaddleOCR-3.7-blue)
 ![PP-OCRv6](https://img.shields.io/badge/model-PP--OCRv6-blue)
 ![License](https://img.shields.io/badge/license-Apache--2.0-green)
 [![tests](https://github.com/Dmitry543/Fine-Tuning-OCR-Model-with-PaddleOCR/actions/workflows/tests.yml/badge.svg)](https://github.com/Dmitry543/Fine-Tuning-OCR-Model-with-PaddleOCR/actions/workflows/tests.yml)
 
 用你自己的数据微调 PP-OCRv6 文本检测和识别模型，并量化验证效果是否真的提升。一条命令完成全部流程：准备数据、评测官方模型、训练、导出、再次评测。
+
+**在线体验：**[演示](https://huggingface.co/spaces/Dmitry654/pp-ocrv6-receipts)（上传小票，对比官方模型和微调模型）· [下载微调后的模型](https://github.com/Dmitry543/Fine-Tuning-OCR-Model-with-PaddleOCR/releases/tag/v2.0.0)（Paddle + ONNX）。
 
 ## 效果
 
