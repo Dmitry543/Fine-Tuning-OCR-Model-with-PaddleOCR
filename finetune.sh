@@ -15,7 +15,6 @@ DATA=${DATA:-data/cord}
 PY=${PYTHON:-python3}
 OVERRIDES=("$@")
 RESULTS=results/$(basename "$DATA")
-export PYTHONPATH=third_party/PaddleOCR
 export PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True
 
 USE_GPU=True; EVAL_DEVICE=gpu:0

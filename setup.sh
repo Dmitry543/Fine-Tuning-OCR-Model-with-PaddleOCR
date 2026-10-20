@@ -2,7 +2,7 @@
 # Install PaddlePaddle, PaddleOCR (pinned) and the pretrained PP-OCRv6 weights.
 #
 #   bash setup.sh          # CPU (macOS, Linux, Windows WSL)
-#   bash setup.sh --gpu    # NVIDIA GPU, CUDA 12.x driver (Colab, Kaggle, most cloud GPUs)
+#   bash setup.sh --gpu    # NVIDIA GPU (Colab, Kaggle, cloud); picks the CUDA 13 or 12.6 build from the driver
 set -euo pipefail
 
 PADDLE_VERSION=3.3.1
@@ -11,7 +11,11 @@ WEIGHTS=https://paddle-model-ecology.bj.bcebos.com/paddlex/official_pretrained_m
 PY=${PYTHON:-python3}
 
 if [[ "${1:-}" == "--gpu" ]]; then
-  $PY -m pip install -q "paddlepaddle-gpu==$PADDLE_VERSION" -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
+  # Match the driver: a CUDA 12 wheel on a CUDA 13 machine (e.g. Colab) installs an older NCCL that
+  # breaks the preinstalled PyTorch, which PaddleX imports through modelscope.
+  driver_cuda=$(nvidia-smi | grep -o 'CUDA Version: [0-9]*' | grep -o '[0-9]*$')
+  cuda=cu126; [[ "${driver_cuda:-12}" -ge 13 ]] && cuda=cu130
+  $PY -m pip install -q "paddlepaddle-gpu==$PADDLE_VERSION" -i "https://www.paddlepaddle.org.cn/packages/stable/$cuda/"
 else
   $PY -m pip install -q "paddlepaddle==$PADDLE_VERSION"
 fi
