@@ -1,2 +1,0 @@
-x: [[145 322 480 449 288 114]], y: [[202 246 333 380 306 263]], ornt: [u'c'], transcriptions: [u'Chateau']
-x: [[519 695 788 740 615 473]], y: [[338 468 591 618 496 394]], ornt: [u'c'], transcriptions: [u'Fujisawa']

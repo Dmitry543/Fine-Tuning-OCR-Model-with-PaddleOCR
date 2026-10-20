@@ -1,8 +1,0 @@
-x: [[368 412 457 463 422 394]], y: [[ 93  71  66  97 107 122]], ornt: [u'c'], transcriptions: [u'FIVE']
-x: [[463 538 588 567 521 470]], y: [[ 63  71 101 130 103 100]], ornt: [u'c'], transcriptions: [u'POINTS']
-x: [[462 496 494 464]], y: [[191 189 236 237]], ornt: [u'h'], transcriptions: [u'5']
-x: [[392 449 516 535 441 372]], y: [[300 335 328 352 362 319]], ornt: [u'c'], transcriptions: [u'BREWING']
-x: [[524 560 580 541]], y: [[325 297 316 347]], ornt: [u'm'], transcriptions: [u'CO']
-x: [[398 431 431 398]], y: [[372 372 389 389]], ornt: [u'h'], transcriptions: [u'San']
-x: [[435 475 476 430]], y: [[372 372 390 391]], ornt: [u'h'], transcriptions: [u'Diego']
-x: [[481 554 555 479]], y: [[373 373 388 392]], ornt: [u'h'], transcriptions: [u'California']

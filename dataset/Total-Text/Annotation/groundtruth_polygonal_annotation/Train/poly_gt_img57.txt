@@ -1,8 +1,0 @@
-x: [[166 201 230 223 198 172]], y: [[101  92  88 107 113 123]], ornt: [u'c'], transcriptions: [u'Barrel']
-x: [[236 277 326 318 268 230]], y: [[ 87  88  93 110 105 106]], ornt: [u'c'], transcriptions: [u'Fermented']
-x: [[338 372 364 319]], y: [[ 94 109 129 115]], ornt: [u'm'], transcriptions: [u'Ales']
-x: [[116 150 264 377 411 364 340 259 185 154]], y: [[241 149 107 156 252 252 181 151 180 254]], ornt: [u'c'], transcriptions: [u'FIRESTONE']
-x: [[ 89 200 200  91]], y: [[280 283 299 299]], ornt: [u'h'], transcriptions: [u'FIRESTONE']
-x: [[209 293 292 211]], y: [[282 284 302 301]], ornt: [u'h'], transcriptions: [u'WALKER']
-x: [[299 390 390 299]], y: [[285 287 302 300]], ornt: [u'h'], transcriptions: [u'BREWING']
-x: [[399 433 432 400]], y: [[285 285 303 304]], ornt: [u'h'], transcriptions: [u'Co']

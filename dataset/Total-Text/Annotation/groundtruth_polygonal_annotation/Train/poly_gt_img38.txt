@@ -1,5 +1,0 @@
-x: [[281 284 289 312 303 305]], y: [[296 253 230 243 273 301]], ornt: [u'c'], transcriptions: [u'THE']
-x: [[293 316 346 354 330 308]], y: [[205 152 124 156 184 230]], ornt: [u'c'], transcriptions: [u'CELTIC']
-x: [[355 416 491 470 410 356]], y: [[108  89 152 199 140 147]], ornt: [u'c'], transcriptions: [u'FOOTBALL']
-x: [[502 525 531 489 488 472]], y: [[184 250 325 325 259 209]], ornt: [u'c'], transcriptions: [u'CLUB']
-x: [[350 375 398 401 364 344]], y: [[462 476 481 529 516 496]], ornt: [u'c'], transcriptions: [u'1888']

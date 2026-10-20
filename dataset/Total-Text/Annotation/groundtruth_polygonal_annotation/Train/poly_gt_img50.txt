@@ -1,3 +1,0 @@
-x: [[433 498 501 435]], y: [[304 319 364 351]], ornt: [u'm'], transcriptions: [u'13']
-x: [[186 339 525 678 654 516 358 219]], y: [[763 682 675 735 799 741 754 822]], ornt: [u'c'], transcriptions: [u'BANDON']
-x: [[304 582 585 301]], y: [[792 777 822 837]], ornt: [u'm'], transcriptions: [u'PRESERVE']

@@ -1,5 +1,0 @@
-x: [[323 354 416 502 482 424 377 349]], y: [[ 92  25   3  37  70  38  55 104]], ornt: [u'c'], transcriptions: [u'CLARKSTON']
-x: [[296 333 343 307]], y: [[131 120 147 159]], ornt: [u'm'], transcriptions: [u'BAR']
-x: [[339 356 366 348]], y: [[118 112 139 148]], ornt: [u'#'], transcriptions: [u'#']
-x: [[487 554 562 498]], y: [[ 76  56  87 104]], ornt: [u'm'], transcriptions: [u'KITCHEn']
-x: [[369 430 467 496 529 499 437 350]], y: [[157 176 162 114 134 187 219 189]], ornt: [u'c'], transcriptions: [u'UNION']

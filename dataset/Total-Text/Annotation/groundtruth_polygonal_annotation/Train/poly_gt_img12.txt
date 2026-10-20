@@ -1,8 +1,0 @@
-x: [[112 149 200 210 166 134]], y: [[411 358 336 358 381 422]], ornt: [u'c'], transcriptions: [u'WOODFORD']
-x: [[212 262 316 307 257 217]], y: [[333 325 337 359 350 355]], ornt: [u'c'], transcriptions: [u'RESERVE']
-x: [[326 385 401 377 356 315]], y: [[346 391 440 442 396 365]], ornt: [u'c'], transcriptions: [u'DISTILLERY']
-x: [[199 222 245 246 230 208]], y: [[374 364 362 385 384 392]], ornt: [u'c'], transcriptions: [u'DSP']
-x: [[257 286 283 253]], y: [[363 366 388 383]], ornt: [u'm'], transcriptions: [u'KY']
-x: [[297 324 316 290]], y: [[370 384 401 391]], ornt: [u'm'], transcriptions: [u'52']
-x: [[168 251 248 167]], y: [[473 478 497 490]], ornt: [u'm'], transcriptions: [u'BOURBON']
-x: [[258 333 334 259]], y: [[479 483 503 495]], ornt: [u'm'], transcriptions: [u'WHISKEY']

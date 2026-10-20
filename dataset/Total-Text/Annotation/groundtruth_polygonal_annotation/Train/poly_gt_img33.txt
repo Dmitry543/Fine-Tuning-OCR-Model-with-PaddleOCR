@@ -1,2 +1,0 @@
-x: [[ 47  99 169 245 281 254 218 168 114  71]], y: [[206 123  96 133 227 232 154 125 149 224]], ornt: [u'c'], transcriptions: [u'OSTERREICHISCHE']
-x: [[ 86 122 192 237 260 204 109  59]], y: [[329 376 382 336 348 413 407 342]], ornt: [u'c'], transcriptions: [u'BOTSCHAFT']

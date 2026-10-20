@@ -1,5 +1,0 @@
-x: [[221 220 287 257 172 180]], y: [[255 325 365 393 335 250]], ornt: [u'c'], transcriptions: [u'UNIVERSITI']
-x: [[299 361 411 454 367 282]], y: [[365 363 344 358 391 392]], ornt: [u'c'], transcriptions: [u'KUALA']
-x: [[434 469 475 511 510 464]], y: [[332 293 246 239 319 353]], ornt: [u'c'], transcriptions: [u'LUMPUR']
-x: [[197 242 239 198]], y: [[229 227 243 243]], ornt: [u'h'], transcriptions: [u'2008']
-x: [[461 501 502 459]], y: [[223 223 235 238]], ornt: [u'h'], transcriptions: [u'2002']

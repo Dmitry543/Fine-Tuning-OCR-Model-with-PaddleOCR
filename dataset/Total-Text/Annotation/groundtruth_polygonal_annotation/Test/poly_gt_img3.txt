@@ -1,4 +1,0 @@
-x: [[697 890 892 694]], y: [[196 202 261 259]], ornt: [u'h'], transcriptions: [u'KELUAR']
-x: [[428 599 788 737 616 446]], y: [[376 340 417 454 394 420]], ornt: [u'c'], transcriptions: [u'naughty']
-x: [[446 613 755 748 568 439]], y: [[432 403 462 525 564 508]], ornt: [u'c'], transcriptions: [u'NURS']
-x: [[431 536 619 724 757 625 509 403]], y: [[510 564 571 526 556 624 615 543]], ornt: [u'c'], transcriptions: [u'restaurant']

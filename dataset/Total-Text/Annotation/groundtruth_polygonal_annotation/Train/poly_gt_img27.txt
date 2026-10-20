@@ -1,4 +1,0 @@
-x: [[168 221 230 174]], y: [[ 94  75 104 125]], ornt: [u'm'], transcriptions: [u'the']
-x: [[228 384 569 536 399 241]], y: [[ 65  30  79 124  91 109]], ornt: [u'c'], transcriptions: [u'GALLEY']
-x: [[690 739 791 795 750 696]], y: [[251 247 237 260 270 276]], ornt: [u'c'], transcriptions: [u'CAPTAIN']
-x: [[807 853 856 813]], y: [[239 231 250 259]], ornt: [u'm'], transcriptions: [u'RON']

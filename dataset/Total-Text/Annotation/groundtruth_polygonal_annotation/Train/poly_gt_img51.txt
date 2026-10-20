@@ -1,2 +1,0 @@
-x: [[243 387 605 777 751 599 413 273]], y: [[451 383 382 457 511 451 448 501]], ornt: [u'c'], transcriptions: [u'PACIFIC']
-x: [[352 669 674 355]], y: [[493 492 539 538]], ornt: [u'h'], transcriptions: [u'DUNES']

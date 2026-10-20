@@ -1,8 +1,0 @@
-x: [[ 86 152 221 210 153  94]], y: [[56 40 52 71 60 73]], ornt: [u'c'], transcriptions: [u'EMBASSY']
-x: [[29 47 76 69 28  9]], y: [[231 268 301 316 282 238]], ornt: [u'c'], transcriptions: [u'UNITED']
-x: [[ 83 121 170 173 112  72]], y: [[305 323 322 344 341 322]], ornt: [u'c'], transcriptions: [u'STATES']
-x: [[177 210 216 180]], y: [[322 311 332 343]], ornt: [u'm'], transcriptions: [u'OF']
-x: [[219 255 279 299 273 220]], y: [[308 279 232 230 294 328]], ornt: [u'c'], transcriptions: [u'AMERICA']
-x: [[ 92 124 133 125 110  89]], y: [[125 138 153 161 147 136]], ornt: [u'#'], transcriptions: [u'#']
-x: [[178 195 213 216 196 189]], y: [[146 132 126 137 146 155]], ornt: [u'c'], transcriptions: [u'UNUM']
-x: [[258 300 300 259]], y: [[394 393 403 404]], ornt: [u'#'], transcriptions: [u'#']

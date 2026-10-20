@@ -1,6 +1,0 @@
-x: [[662 713 755 763 720 681]], y: [[191 162 151 187 197 226]], ornt: [u'c'], transcriptions: [u'TOKU']
-x: [[768 818 872 860 811 771]], y: [[149 146 168 202 182 182]], ornt: [u'c'], transcriptions: [u'TOKU']
-x: [[702 815 825 702]], y: [[236 227 274 286]], ornt: [u'#'], transcriptions: [u'#']
-x: [[326 375 386 340]], y: [[820 819 962 964]], ornt: [u'#'], transcriptions: [u'#']
-x: [[727 830 830 726]], y: [[813 813 850 856]], ornt: [u'#'], transcriptions: [u'#']
-x: [[41 76 72 45]], y: [[599 595 621 619]], ornt: [u'#'], transcriptions: [u'#']

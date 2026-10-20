@@ -1,3 +1,0 @@
-x: [[162 231 239 178]], y: [[110  80  97 144]], ornt: [u'm'], transcriptions: [u'Celine']
-x: [[187 238 290 298 238 178]], y: [[307 325 315 340 351 330]], ornt: [u'c'], transcriptions: [u'CELINE']
-x: [[300 331 352 377 348 312]], y: [[310 290 255 266 312 335]], ornt: [u'c'], transcriptions: [u'DION']

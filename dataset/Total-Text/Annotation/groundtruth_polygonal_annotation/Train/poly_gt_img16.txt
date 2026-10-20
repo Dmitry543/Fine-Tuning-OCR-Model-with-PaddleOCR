@@ -1,7 +1,0 @@
-x: [[220 266 338 372 310 266]], y: [[395 305 264 300 344 425]], ornt: [u'c'], transcriptions: [u'CAFE']
-x: [[379 416 438 394]], y: [[243 235 272 288]], ornt: [u'#'], transcriptions: [u'#']
-x: [[463 621 730 679 600 463]], y: [[229 271 419 434 313 264]], ornt: [u'c'], transcriptions: [u'GALLERY']
-x: [[263 332 480 483 302 207]], y: [[531 644 696 750 682 543]], ornt: [u'c'], transcriptions: [u'GALLERY']
-x: [[509 554 562 531]], y: [[693 680 727 733]], ornt: [u'#'], transcriptions: [u'#']
-x: [[581 642 685 718 674 600]], y: [[671 619 548 563 654 711]], ornt: [u'c'], transcriptions: [u'CAFE']
-x: [[203 732 723 204]], y: [[827 825 895 873]], ornt: [u'#'], transcriptions: [u'#']

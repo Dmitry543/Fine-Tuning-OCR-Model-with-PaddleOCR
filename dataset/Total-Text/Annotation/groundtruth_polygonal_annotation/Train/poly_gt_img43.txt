@@ -1,6 +1,0 @@
-x: [[187 157 249 276 209 223]], y: [[349 199  96 133 235 331]], ornt: [u'c'], transcriptions: [u'WELCOME']
-x: [[272 333 346 287]], y: [[ 88  71 108 126]], ornt: [u'm'], transcriptions: [u'To']
-x: [[370 469 515 478 422 362]], y: [[ 71 110 176 199 133 112]], ornt: [u'c'], transcriptions: [u'PONCE']
-x: [[474 491 489 527 535 509]], y: [[322 268 207 198 284 351]], ornt: [u'c'], transcriptions: [u'INLET']
-x: [[258 358 361 256]], y: [[445 444 468 468]], ornt: [u'h'], transcriptions: [u'circa']
-x: [[375 459 457 381]], y: [[446 443 465 468]], ornt: [u'h'], transcriptions: [u'1997']

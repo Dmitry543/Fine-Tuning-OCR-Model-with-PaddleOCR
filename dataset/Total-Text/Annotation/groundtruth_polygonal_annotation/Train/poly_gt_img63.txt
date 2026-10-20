@@ -1,6 +1,0 @@
-x: [[250 321 400 388 322 267]], y: [[126  75  98 132 107 149]], ornt: [u'c'], transcriptions: [u'GUSTO']
-x: [[286 322 365 375 328 280]], y: [[227 233 220 238 261 248]], ornt: [u'c'], transcriptions: [u'CAFE']
-x: [[210 332 334 210]], y: [[313 307 337 347]], ornt: [u'm'], transcriptions: [u'GUSTO']
-x: [[342 440 439 348]], y: [[307 302 332 336]], ornt: [u'm'], transcriptions: [u'CAFE']
-x: [[361 381 380 365]], y: [[265 266 279 279]], ornt: [u'm'], transcriptions: [u'PC']
-x: [[380 437 438 381]], y: [[265 259 274 278]], ornt: [u'm'], transcriptions: [u'0003249H']

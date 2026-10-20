@@ -1,6 +1,0 @@
-x: [[ 78 254 383 415 253  78]], y: [[153 156 149 261 223 260]], ornt: [u'c'], transcriptions: [u'TROIKA']
-x: [[ 86 140 147  98]], y: [[276 259 282 303]], ornt: [u'm'], transcriptions: [u'VENE']
-x: [[146 209 260 261 207 156]], y: [[258 245 247 276 275 285]], ornt: [u'c'], transcriptions: [u'RESTORAN']
-x: [[275 302 301 273]], y: [[248 251 279 275]], ornt: [u'm'], transcriptions: [u'JA']
-x: [[312 416 410 304]], y: [[250 282 312 279]], ornt: [u'm'], transcriptions: [u'TRAHTER']
-x: [[474 499 502 480]], y: [[159 160 179 182]], ornt: [u'm'], transcriptions: [u'15']

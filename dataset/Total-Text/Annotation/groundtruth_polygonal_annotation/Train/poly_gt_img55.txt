@@ -1,4 +1,0 @@
-x: [[164 210 209 161]], y: [[27 29 40 39]], ornt: [u'h'], transcriptions: [u'ENFORCER']
-x: [[101 153 203 193 151 109]], y: [[61 49 68 94 78 83]], ornt: [u'c'], transcriptions: [u'DETROIT']
-x: [[127 166 167 131]], y: [[ 90  94 112 108]], ornt: [u'h'], transcriptions: [u'FIRE']
-x: [[105 151 200 205 151 100]], y: [[103 122 115 135 144 119]], ornt: [u'c'], transcriptions: [u'DEPARTMENT']

@@ -1,5 +1,0 @@
-x: [[112 805 799 109]], y: [[124 115 232 236]], ornt: [u'#'], transcriptions: [u'#']
-x: [[265 371 495 506 389 294]], y: [[423 349 366 430 440 506]], ornt: [u'c'], transcriptions: [u'shin']
-x: [[565 645 595 517]], y: [[384 444 501 444]], ornt: [u'm'], transcriptions: [u'ai']
-x: [[318 592 592 326]], y: [[897 912 975 968]], ornt: [u'h'], transcriptions: [u'Since']
-x: [[343 575 564 349]], y: [[ 998 1007 1079 1070]], ornt: [u'm'], transcriptions: [u'1930']

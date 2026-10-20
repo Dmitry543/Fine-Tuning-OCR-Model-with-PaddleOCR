@@ -1,5 +1,0 @@
-x: [[213 308 277 171]], y: [[752 822 875 806]], ornt: [u'#'], transcriptions: [u'#']
-x: [[358 435 427 350]], y: [[855 884 922 898]], ornt: [u'm'], transcriptions: [u'HONG']
-x: [[449 528 526 444]], y: [[881 894 936 925]], ornt: [u'm'], transcriptions: [u'KONG']
-x: [[540 592 635 645 604 539]], y: [[886 869 850 890 908 932]], ornt: [u'c'], transcriptions: [u'POLICE']
-x: [[677 791 819 695]], y: [[823 749 805 875]], ornt: [u'#'], transcriptions: [u'#']

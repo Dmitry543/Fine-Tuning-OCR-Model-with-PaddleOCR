@@ -1,6 +1,0 @@
-x: [[278 358 434 480 406 366]], y: [[442 312 242 324 394 500]], ornt: [u'c'], transcriptions: [u'Best']
-x: [[477 738 966 902 720 504]], y: [[180 119 198 308 252 286]], ornt: [u'c'], transcriptions: [u'Seafood']
-x: [[ 998 1086 1160 1080 1020  932]], y: [[222 306 456 516 402 330]], ornt: [u'c'], transcriptions: [u'Dive']
-x: [[ 230 1244 1254  244]], y: [[596 554 806 851]], ornt: [u'm'], transcriptions: [u'Gilhooleys']
-x: [[480 568 532 427]], y: [[1050 1120 1216 1110]], ornt: [u'm'], transcriptions: [u'in']
-x: [[ 588  792  970 1034  826  586]], y: [[1130 1158 1086 1130 1274 1228]], ornt: [u'c'], transcriptions: [u'Texas']
