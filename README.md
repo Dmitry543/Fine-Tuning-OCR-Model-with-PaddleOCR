@@ -3,12 +3,15 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Dmitry543/Fine-Tuning-OCR-Model-with-PaddleOCR/blob/main/finetune.ipynb)
+[![Demo on Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/Dmitry654/pp-ocrv6-receipts)
 ![PaddleOCR 3.7](https://img.shields.io/badge/PaddleOCR-3.7-blue)
 ![PP-OCRv6](https://img.shields.io/badge/model-PP--OCRv6-blue)
 ![License](https://img.shields.io/badge/license-Apache--2.0-green)
 [![tests](https://github.com/Dmitry543/Fine-Tuning-OCR-Model-with-PaddleOCR/actions/workflows/tests.yml/badge.svg)](https://github.com/Dmitry543/Fine-Tuning-OCR-Model-with-PaddleOCR/actions/workflows/tests.yml)
 
 Fine-tune the PP-OCRv6 text detector and recognizer on your data, then measure whether it actually got better. One command does the whole loop: prepare data, measure the stock models, train, export, measure again.
+
+**Try it:** [live demo](https://huggingface.co/spaces/Dmitry654/pp-ocrv6-receipts) (upload a receipt, compare stock and fine-tuned) · [download the fine-tuned models](https://github.com/Dmitry543/Fine-Tuning-OCR-Model-with-PaddleOCR/releases/tag/v2.0.0) (Paddle + ONNX).
 
 ## Results
 
