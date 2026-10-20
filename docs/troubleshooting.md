@@ -17,3 +17,10 @@ PaddlePaddle has no Apple GPU support, so training runs on the CPU at a few minu
 
 **`Checking connectivity to the model hosters` hangs**
 Set `PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True`. If Hugging Face is blocked on your network, also set `PADDLE_PDX_MODEL_SOURCE=BOS` to download official models from Baidu's servers.
+
+**ONNX conversion fails or hangs**
+Two PaddlePaddle 3.3 export details break Paddle2ONNX 2.0:
+- 64-bit float attributes (`the 0th elementwise MUST be ir::FloatAttribute`). `tools/export_onnx.py` rewrites them.
+- On CUDA builds, linear layers are exported as `linear_v2`, which Paddle2ONNX does not support. It aborts with `Due to the unsupported operators, the conversion is aborted`, and on macOS the crash handler can then hang instead of exiting. Export with `FLAGS_use_legacy_linear=1` (as `finetune.sh` does) and convert again.
+
+Paddle2ONNX has no Python 3.13 builds yet, so convert in a Python 3.12 (or older) environment.

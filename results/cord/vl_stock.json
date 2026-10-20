@@ -1,0 +1,13 @@
+{
+  "name": "vl_stock",
+  "model": "PaddlePaddle/PaddleOCR-VL-1.6",
+  "adapter": null,
+  "split": "test",
+  "recognition": {
+    "accuracy": 0.8340836012861736,
+    "cer": 0.1290180148357471,
+    "lines": 1555,
+    "ms_per_line": 932.36338149313
+  },
+  "device": "Tesla T4"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "finetuned",
+  "det": "output/inference/det",
+  "rec": "output/inference/rec",
+  "split": "test",
+  "images": 100,
+  "detection": {
+    "precision": 0.9393939393939394,
+    "recall": 0.9768488745980708,
+    "f1": 0.9577553593947037
+  },
+  "recognition": {
+    "accuracy": 0.9446945337620579,
+    "cer": 0.011038502296008477,
+    "lines": 1555,
+    "ms_per_line": 8.116294333405817
+  },
+  "end_to_end": {
+    "precision": 0.865182436611008,
+    "recall": 0.8996784565916399,
+    "f1": 0.882093316519546
+  },
+  "s_per_image": 0.13614320039749145,
+  "device": "gpu:0"
+}

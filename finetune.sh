@@ -39,9 +39,9 @@ for task in det rec; do
   # shellcheck disable=SC2046
   $PY third_party/PaddleOCR/tools/train.py -c "configs/${task}_ppocrv6_small.yml" \
     -o Global.use_gpu=$USE_GPU $(data_args $task) ${OVERRIDES[@]+"${OVERRIDES[@]}"}
-  # Export on CPU: a GPU export fuses ops into linear_v2, which Paddle2ONNX cannot convert.
-  $PY third_party/PaddleOCR/tools/export_model.py -c "configs/${task}_ppocrv6_small.yml" \
-    -o Global.use_gpu=False Global.pretrained_model="output/$task/best_accuracy" \
+  # CUDA builds of PaddlePaddle 3.3 export linear layers as linear_v2, which Paddle2ONNX cannot convert.
+  FLAGS_use_legacy_linear=1 $PY third_party/PaddleOCR/tools/export_model.py -c "configs/${task}_ppocrv6_small.yml" \
+    -o Global.use_gpu=$USE_GPU Global.pretrained_model="output/$task/best_accuracy" \
        Global.save_inference_dir="output/inference/$task"
 done
 
